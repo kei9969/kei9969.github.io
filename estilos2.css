@@ -1,0 +1,25 @@
+:root { --azul:#0A4DAF; --verde:#5DD60F; --celeste:#00A8F5; --profundo:#00265C; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Arial, sans-serif; color: #1F2937; line-height: 1.6; }
+.barra { display: flex; justify-content: space-between; align-items: center;
+padding: 1rem 2rem; background: var(--azul); color: #fff; }
+.barra nav a { color: #fff; margin-left: 1.5rem; text-decoration: none; }
+.barra nav a:hover { color: var(--verde); }
+.hero { text-align: center; padding: 5rem 1rem; color: #fff;
+background: linear-gradient(135deg, var(--azul), var(--celeste)); }
+.hero p { margin: 1rem 0 2rem; }
+.boton { display: inline-block; padding: .8rem 1.6rem; border: none;
+border-radius: 8px; background: var(--verde); color: var(--profundo);
+font-weight: bold; text-decoration: none; cursor: pointer; }
+.servicios, .contacto { padding: 3rem 2rem; max-width: 960px; margin: auto; }
+.tarjetas { display: flex; gap: 1.5rem; flex-wrap: wrap; margin-top: 1.5rem; }
+.tarjeta { flex: 1 1 220px; padding: 1.5rem; border-radius: 12px;
+border-top: 5px solid var(--verde);
+box-shadow: 0 4px 12px rgba(0,0,0,.12); }
+form { display: flex; flex-direction: column; gap: .6rem; max-width: 420px; }
+input { padding: .7rem; border: 1px solid #ccc; border-radius: 6px; }
+#mensaje { font-weight: bold; }
+footer { text-align: center; padding: 1.5rem; background: var(--profundo); color: #fff; }
+@media (max-width: 600px) {
+.barra { flex-direction: column; gap: .5rem; }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Emprendimiento</title>
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<header class="barra">
+<h1 class="logo">Mi Emprendimiento</h1>
+<nav>
+<a href="#servicios">Servicios</a>
+<a href="#contacto">Contacto</a>
+</nav>
+</header>
+<main>
+<section class="hero">
+<h2>Soluciones que hacen crecer tu negocio</h2>
+<p>Capacitación, tecnología y productividad a tu alcance.</p>
+<a class="boton" href="#contacto">Solicitar información</a>
+</section>
+<section id="servicios" class="servicios">
+<h2>Nuestros servicios</h2>
+<div class="tarjetas">
+<article class="tarjeta"><h3>Educación</h3>
+<p>Cursos y talleres prácticos.</p></article>
+<article class="tarjeta"><h3>Tecnología</h3>
+<p>Herramientas digitales para tu trabajo.</p></article>
+<article class="tarjeta"><h3>Productividad</h3>
+<p>Procesos más ágiles y ordenados.</p></article>
+</div>
+</section>
+<section id="contacto" class="contacto">
+<h2>Contáctanos</h2>
+<form id="formContacto">
+<label for="nombre">Nombre</label>
+<input type="text" id="nombre" placeholder="Tu nombre">
+<label for="correo">Correo</label>
+<input type="email" id="correo" placeholder="tu@correo.com">
+<button type="submit" class="boton">Enviar</button>
+<p id="mensaje" role="status"></p>
+</form>
+</section>
+</main>
+<footer><p>&copy; 2026 Mi Emprendimiento</p></footer>
+<script src="js/app.js" defer></script>
+</body>
+</html>

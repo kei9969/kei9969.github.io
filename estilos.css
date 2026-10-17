@@ -1,0 +1,50 @@
+body {
+background-color: #F4F8FD;
+color: #1F2937;
+}
+.banner {
+background: linear-gradient(135deg, #0A4DAF, #00A8F5);
+}
+p {
+font-family: "Segoe UI", Arial, sans-serif; /* lista de respaldo */
+font-size: 16px;
+font-weight: bold; /* grosor */
+line-height: 1.6; /* interlineado */
+text-align: justify; /* left | center | right | justify */
+text-decoration: none; /* quita subrayado */
+}
+* { box-sizing: border-box; } /* el ancho incluye padding y borde */
+.tarjeta {
+width: 300px;
+padding: 20px; /* espacio interior */
+border: 2px solid #0A4DAF; /* grosor estilo color */
+border-radius: 12px; /* esquinas redondeadas */
+margin: 16px auto; /* arriba/abajo 16px, centrado horizontal */
+}
+.menu {
+display: flex; /* activa Flexbox */
+justify-content: space-between;/* distribución horizontal */
+align-items: center; /* alineación vertical */
+gap: 16px; /* separación entre elementos */
+flex-wrap: wrap; /* permite pasar a otra línea */
+}
+.galeria {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+}
+.contenedor { display: flex; gap: 20px; }
+@media (max-width: 600px) { /* en pantallas de 600px o menos */
+.contenedor { flex-direction: column; }
+h1 { font-size: 24px; }
+}
+:root {
+--azul: #0A4DAF;
+--verde: #5DD60F;
+}
+.boton {
+background: var(--verde);
+color: var(--azul);
+transition: transform 0.3s; /* animación suave */
+}
+.boton:hover { transform: scale(1.08); }

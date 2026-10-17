@@ -1,0 +1,114 @@
+<h1>Mi Página descriptiva</h1>
+<p>Bienvenido, aquí encontrarás <strong>información sobre mí</strong>
+y <em>algo más</em>.</p>
+<img src="img/foto.jpg" alt="Personas con un destornillador en la mano detrás de una mesa con un cpu encima de la mesa"
+
+<p>Mis pasatiempos:</p>
+<ul>
+    <li>El deporte</li>
+    <li>La música</li>
+    <li>La computación</li>
+</ul>
+<a href="https://www.marca.com" target="_blank">Ir a Marca</a>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="estilos.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Horario</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: center;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Horario Semanal</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Hora</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+                <th>Sábado</th>
+                <th>Domingo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>8:00 - 12:00</td>
+                <td>Lecturas y desayuno</td>
+                <td>Lecturas y desayuno</td>
+                <td>Lecturas y desayuno</td>
+                <td>Lecturas y desayuno</td>
+                <td>Lecturas y desayuno</td>
+                <td>Lecturas, Premier League y desayuno</td>
+                <td>Lecturas, Premier League y desayuno</td>
+            </tr>
+            <tr>
+                <td>12:00 - 15:30</td>
+                <td>Prácticas inglés y almuerzo</td>
+                <td>Prácticas inglés y almuerzo</td>
+                <td>Prácticas inglés y almuerzo</td>
+                <td>Prácticas inglés y almuerzo</td>
+                <td>Prácticas inglés y almuerzo</td>
+                <td>Curso informática+reparación y almuerzo</td>
+                <td>Prácticas inglés y radio</td>
+            </tr>
+            <tr>
+                <td>15:30 - 18:30</td>
+                <td>Radio</td>
+                <td>Radio</td>
+                <td>Radio</td>
+                <td>Radio</td>
+                <td>Radio</td>
+                <td>Real Madrid</td>
+                <td>Radio y almuerzo</td>
+            </tr>
+            <tr>
+                <td>18:30 - 23:30</td>
+                <td>Deporte, lecturas, inglés, música y cena</td>
+                <td>Deporte, lecturas, inglés, música y cena</td>
+                <td>Deporte, lecturas, inglés, música y cena</td>   
+                <td>Deporte, lecturas, inglés, música y cena</td> 
+                <td>Deporte, lecturas, inglés, música y cena</td> 
+                <td>Deporte, lecturas, inglés, música y cena</td> 
+                <td>Deporte, lecturas, inglés, música y cena</td>     
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
+<form action="#" method="post">
+<label for="nombre">Nombre:</label>
+<input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+<label for="correo">Correo:</label>
+<input type="email" id="correo" name="correo" required>
+<label for="curso">Curso:</label>
+<select id="curso" name="curso">
+<option>HTML</option>
+<option>CSS</option>
+<option>JavaScript</option>
+</select>
+<label for="mensaje">Mensaje:</label>
+<textarea id="mensaje" name="mensaje" rows="4"></textarea>
+<button type="submit">Enviar</button>
+</form>
