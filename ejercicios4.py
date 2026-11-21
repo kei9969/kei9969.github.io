@@ -1,0 +1,8 @@
+INICIO
+LEER numero
+SI numero MOD 2 = 0 ENTONCES
+ESCRIBIR "Es par"
+SINO
+ESCRIBIR "Es impar"
+FIN SI
+FIN
